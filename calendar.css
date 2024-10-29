@@ -1,0 +1,114 @@
+#wp-calendar
+{
+text-align: center;
+width: 100%;
+border-collapse: collapse;
+padding: 0;
+margin: 0;
+font-size: 1em;
+}
+
+#wp-calendar caption a, #wp-calendar caption a:hover
+{
+background: transparent;
+}
+
+#wp-calendar th
+{
+font-weight: bold;
+}
+
+#wp-calendar a
+{
+text-decoration: bold;
+/*display: block;*/
+/*color: black;*/
+}
+
+#wp-calendar td, #wp-calendar th
+{
+text-align: center;  
+}
+
+#wp-calendar tbody td a
+{
+text-decoration: underline;
+/*background-color: #ccc;*/
+}
+
+#wp-calendar caption
+{
+letter-spacing: 0.1em;
+padding: 0.2em 1em 0.2em 0em;
+font-weight: normal;
+text-align: left;
+font-size: 1.2em;
+}
+
+table.banglacal {
+  margin: 0em 0 0em;
+  border-bottom: 0px ;
+  border-left: 0px;
+}
+
+table.banglacal  td, table.banglacal  th{
+  text-align: left;
+  padding: 0px 0px;
+  border-top: 0px;
+  border-right: 0px;
+}
+
+table.banglacal  td.english {
+color: #000000;
+}
+
+table.banglacal  td.bengsecondmonth {
+color: #00b8ff;
+font-size: 0.9em;
+}
+
+table.banglacal  td.bengfirstmonth{
+font-size: 0.9em;
+color: #0047ff;
+}
+
+
+table.banglacal  td.english a{
+color: #000000;
+}
+
+table.banglacal  td.bengfirstmonth a{
+
+color: #0047ff;
+}
+
+table.banglacal  td.bengsecondmonth a{
+color: #00b8ff;
+
+}
+
+
+
+
+.bengfirstmonth {
+font-size: 0.9em;
+color: #0047ff;
+}
+
+.bengsecondmonth {
+font-size: 0.9em;
+color: #00b8ff;
+}
+
+table.banglacal  th{
+  background: #ebebeb;
+  border-bottom: 0px;
+}
+
+.banglacal table tr.odd{
+  background: #ebebeb;
+}
+
+/*.banglacal table tr:hover{
+  background: #ffffff;
+}*/
